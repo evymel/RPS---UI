@@ -1,0 +1,15 @@
+
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+
+}
+/* there isn't some great wisdom here, just the nagget, the internet can scrol down a lot, but the width? thats have a limit of pixels 
+and thats why we always touch and limit the width, to keep proportion, WIDTH*/

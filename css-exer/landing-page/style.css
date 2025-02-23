@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto';
+    overflow-y:auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*--the header part         --*/ 
+
+.hero {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.hero-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 64px;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.hero-cell {
+    padding-top: 64px;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+
+    color: #E5E7EB;
+}
+
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    padding-top: 64px;
+    width: 512px;
+    height: 256px;
+}
+
+.link {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+}
+
+
+.hero-button {
+    background-color:#3882F6 ;
+    color: #E5E7EB;
+    color: #E5E7EB;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    border: 1px solid #E5E7EB;
+
+
+}
+
+
+/*--the info(second) part         --*/ 
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 64px;
+
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 32px;
+
+}
+
+.info-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+
+
+    
+}
+
+.info-cell {
+    width: 256px;
+
+
+}
+.img-cell {
+    border: 2px solid #3882F6;
+    width: 180px;
+    height: 180px;
+
+}
+
+
+
+  
+
+
+
+
+/*--the third part         --*/ 
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    padding: 32px;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.by {
+   text-align: right;
+
+}
+/* the box method here worked quite good, third, contains a box, which contains the both! */
+
+
+
+
+/*--the fourth part         --*/ 
+.fourth {
+    display: flex;
+    height: 320px;
+    margin-bottom: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    padding: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 64px;
+    border-radius: 10px;
+    background-color:#3882F6 ;
+    display: flex;
+
+}
+
+.left-message {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.message-title {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.message-descr {
+    color: white;
+    font-size: 12px;
+}
+
+.message-button {
+    background-color:#3882F6 ;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+}
+
+
+
+/*--the footer part         --*/ 
+.footer {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 16px;
+}
+
+
+

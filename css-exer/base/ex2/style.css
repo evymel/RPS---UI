@@ -1,0 +1,30 @@
+.odd {
+    color: black ;
+    background-color: rgb(252, 90, 117);
+    font-size: 18px;
+    font-family: Verdana ,'DejaVu Sans' , sans-serif;
+    /* the 'font name' is because space in the name of the font of course!*/
+}
+
+#two {
+    color: rgb(0, 89, 255) ;
+    background-color: rgb(255, 255, 255);
+    font-size: 36px;
+    
+}
+/*could have used a chaining below, and went the route of .odd.cooler */
+.adjust-font-size {
+    font-size: 24px;
+    
+}
+
+#four {
+    font-size: 24px;
+    background-color: rgb(105, 255, 105);
+    font-weight: bold;
+}
+
+/* 
+font-size: 32px;
+font-weight: 700;
+*/

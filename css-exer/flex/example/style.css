@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.container {
+    resize: horizontal;
+
+    overflow: hidden;
+
+}
+
+/*----------------------------until now we added streaching ability---------------------------------*/
+.flex-container-one {
+    display: flex; 
+ }
+ 
+ /* this selector selects all divs inside of .flex-container */
+.flex-container-one div {
+   background: peachpuff;
+   border: 4px solid brown;
+   height: 100px;
+   /*flex: 1;*/
+}
+ 
+ 
+.flex-container-two {
+    display: flex; 
+}
+ 
+ /* this selector selects all divs inside of .flex-container */
+.flex-container-two div {
+   background: peachpuff;
+   border: 4px solid brown;
+   height: 100px;
+   /*flex: 1;*/
+
+}
+
+.flex-container-three {
+    
+    display: flex;
+}
+ 
+ /* this selector selects all divs inside of .flex-container */
+.flex-container-three div {
+   background: peachpuff;
+   border: 4px solid brown;
+   height: 100px;
+   /*flex: 1;  */
+}
+ 
+
+.one {
+    flex: 1;
+}
+.two {
+    flex: 2;
+}
+.three {
+    flex: 3;
+}
+.four {
+    flex: 4;
+}
+.five {
+    flex: 5;
+}
