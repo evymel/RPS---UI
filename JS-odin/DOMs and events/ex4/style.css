@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Panel {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+#roundPanel {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
