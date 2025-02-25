@@ -41,8 +41,6 @@ function playRound(computer, human) {
     if (computer == human) {
         roundPanel.innerText += "\n\nRound DRAW, no points award";
 		
-        pScore += 0.5;
-        cScore += 0.5;
         computerScore.innerText = `computer score ==  ${cScore} == \n`;
         playerScore.innerText = `Player score ==  ${pScore} == \n`;
         return;
@@ -53,13 +51,14 @@ function playRound(computer, human) {
         pScore++;
         roundPanel.innerText += "\n\nPlayer wins, one point awarded for Player";
         playerScore.innerText = `Player score ==  ${pScore} == \n`;
-
+        checkWinner();
         return pScore;
 
     } else if ((human == "rock" && computer == "paper") || (human == "scissors" && computer == "rock") || (human == "paper" && computer == "scissors")) {
         cScore++;
         roundPanel.innerText += "\n\nComputer wins, one point awarded for computer";
         computerScore.innerText = `computer score ==  ${cScore} == \n`;
+        checkWinner();
         return cScore;
 
 
@@ -69,11 +68,7 @@ function playRound(computer, human) {
     }
 
 
-
-
-
-
-    checkWinner();
+    
 }
 
 
